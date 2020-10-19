@@ -5,7 +5,7 @@ body {
 
 /* styling for classes */
 .header {
-   background-color: rgb(155, 152, 152);
+   background-color: rgb(186, 114, 114);
 }
 
 
@@ -34,4 +34,20 @@ body {
    background-color: #1f98ff;
    width: 50%;
    height: 3px;
+}
+
+.links {
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+
+}
+
+.menu {
+   border-style: solid;
+   background-color: #82f400;
+   margin: 2px;
+   padding: 15px;
+   font-size: 20px;
 }
