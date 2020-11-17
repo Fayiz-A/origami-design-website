@@ -1,24 +1,37 @@
 /* styling for tags */
 body {
-   background-color: rgb(226, 226, 226);
+   margin: 0px;
+   background-color: #e2e2e2;
 }
 
 /* styling for classes */
 .header {
-   background-color: rgb(186, 114, 114);
+   padding-left: 20px;
+   background-color: #ba7272;
 }
 
 
 .img {
-   border: 2px solid black;
+   border: 2px solid #000000;
    padding: 10px;
    border-radius: 50px 20px;
+}
+
+.img:hover {
+   transform: scale(1.2) translate(100px, 0px);
+}
+
+.image p {
+   color: #000000;
+   transform: translate(50%, -500%);
+   position: absolute;
+   font-size: 25px;
 }
 
 .divider {
    border: 0;
    width: 100%;               
-   background-color: red;
+   background-color: #ff0000;
    height: 2px;
 }
 
@@ -34,6 +47,8 @@ body {
    background-color: #1f98ff;
    width: 50%;
    height: 3px;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 
 .links {
@@ -44,10 +59,22 @@ body {
 
 }
 
+a:link {
+   color: #175dff;
+}
+
+a:visited {
+   color: #8c7267;
+}
+
 .menu {
    border-style: solid;
    background-color: #82f400;
-   margin: 2px;
+   margin-left: 20px;
    padding: 15px;
    font-size: 20px;
+}
+
+.origamiSection {
+   margin: 10px;
 }
